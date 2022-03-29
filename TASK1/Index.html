@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lets Grow More Task 1: To Do List</title>
+  <!--CSS-->
+  <link href="./stylecss.css" rel="stylesheet">
+  <style>
+    h2 {
+      text-align: center;
+      color: rgb(221, 172, 10);
+    }
+  </style>
+</head>
+
+<body>
+      <div style="border: 3px green solid;">
+        <h2>To Do List</h2>
+      <div id="credits">Add Tasks</div>
+      <div id="addflex">
+        <input type="text" placeholder="Your tasks here!" id="toDo" />
+        <input type="button" value="Add Task" onclick="taskinsertion()" />
+      </div>
+      <h2>Tasks To Complete</h2>
+      <div style="color: white;" id="Tasks"></div>
+      </div>
+   
+  <!--JS-->
+  <script src="./taskjs.js"></script>
+</body>
+
+</html>
