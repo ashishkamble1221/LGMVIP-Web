@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <h1 style="margin-top:2%;color:rgb(181, 162, 225);text-align:center;">LGMVIP Task-3 Intermediate Level(Simple Registration Form)</h1>
+<h2 style="color:gray;text-align:center;">Student Registration Form</h1>
+<h2 style="color:brown;text-align:center;">Please enter your details</h2>
+<link rel ="stylesheet" href="Registration_form.css">
+</head>
+
+<body bgcolor="lavender"><!--/body> onload="alert('Please wait,This page is loading');"-->
+<script src="Registration_form.js"></script>
+
+<!--img src ="bg3.png" alt = "Sorry image is not found" style="width:150px;height:100px;float:right"-->
+<center>
+  <form>
+<table  style="border:1px black solid;" id="table1">
+<tbody>
+<tr>
+<th><label>Student Name:</label></th>
+<td><input type="text" placeholder="FirstName and LastName" id="fname"></td>
+</tr>
+<tr>
+<th><label>Username:</label></th>
+<td><input type="text" id="un"></td>
+</tr>
+<tr>
+<th><label>Password:</label></th>
+<td><input type="password" id="pass"></td>
+</tr>
+<tr>
+
+<!--give the password correctly-->
+
+<th><label>Confirm Password:</label></th>
+<td><input type="password" id="cpass"></td>
+</tr>
+<tr>
+<th><label>Email:</label></th>
+<td><input type="email" id="email"></td>
+</tr>
+<tr>
+<th><label>Gender</label></th>
+<td>
+<input type="radio" name="g" id="female">Female &nbsp;&nbsp;&nbsp;
+<input type="radio"name="g" id="male">Male &nbsp;&nbsp;&nbsp;
+<input type="radio"name="g" id="other">Others</td>
+</tr>
+<tr>
+<th><label>Languages Known:</label></th>
+<td>
+<input type="checkbox" name="cb" id="hindi"><label>Hindi </label>&nbsp;&nbsp;&nbsp;
+<input type="checkbox"name="g" id="telugu"><label>Telugu</label>
+&nbsp;&nbsp;&nbsp;
+<input type="checkbox"name="g" id="english"><label>English</label>
+&nbsp;&nbsp;&nbsp;
+<input type="checkbox"name="g" id="others"><label>Others</label></td>
+</tr>
+<tr>
+<th><label>Course:</label></th>
+<td><select>
+<option value="course">Please select</option>
+<option value="Python for Everybody">Python for Everybody</option>
+<option value="Introduction to web development">Introduction to web development</option>
+<option value="Data Science">Data Science</option>
+<option value="Machine Learning">Machine Learning</option>
+<option value="other">other</option>
+</select></td>
+</tr>
+<tr>
+<th><label>Other course:</label></th>
+<td><input type="other course" placeholder="Mention the course"></td>
+</tr>
+<tr>
+<th><label>DOB:</label></th>
+<td><input type="date" id="dob"></td>
+</tr>
+<tr>
+<th><label>Educational details: </label></th>
+<td><input type="text" id="educate"></td>
+</tr>
+<tr>
+<th>
+<label>Address:</label>
+</th>
+<td><textarea rows="5" cols="30" id="address">
+</textarea>
+</td>
+</tr>
+<tr id="btn">
+<td colspan="3"><input type="button" onclick="add()" id="btn" name="button"  value="SUBMIT"></td>
+</tr>
+</tbody>
+</table>
+</form>
+</center>
+<br>
+  <center>
+  <table  id="show">
+    <h1 id="head1">Displaying Student Details</h1>
+   <thead>
+    <tr><th>Student Name</th>
+      <th>User Name</th>
+      <th>Password</th>
+     <th>Email</th>
+     <th>DOB</th>
+     <th>Educational Details</th>
+     <th>Address</th>
+    </tr>
+   </thead>
+  </table>
+</center>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+body
+{
+/* border:15px dotted rgb(130, 185, 22); */
+}
+#head1{
+color:rgb(179, 23, 158);
+}
+label{
+color:gray;
+font-size: larger;
+}
+input,option{
+/* color:red; */
+background-color:lightgrey;
+/* border:dotted orange; */
+}
+.show{
+margin-top:100px;
+text-align:center;
+background:#333;
+/* color:red; */
+}
+#show th{
+padding:13px;
+/* color:rgb(185, 8, 114); */
+background:bisque;
+font-size: x-large;
+}
+#show td{
+padding:13px;
+color:rgb(29, 99, 76);
+background:rgb(237, 234, 234) ;
+}
+#btn td input{
+width:100%;
+padding:15px;
+background-color: rgba(186, 191, 165, 0.494);
+/* color:rgba(205, 15, 15, 0.757); */
+font-size: xx-large;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+select
+{
+/* color:blue; */
+background-color:lightgrey;
+/* border:dotted orange; */
+}
+textarea
+{
+/* color:green; */
+background-color:lightgrey;
+/* border:dotted orange; */
+}
